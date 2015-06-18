@@ -1,8 +1,28 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Aota1995557}
+S.~Aota~{\it et al.}, A scintillating tile/fiber system for the cdf plug
+  upgrade em calorimeter, Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment
+  352~(3) (1995) 557 -- 568.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/0168-9002(95)90005-5}
+  {\path{doi:http://dx.doi.org/10.1016/0168-9002(95)90005-5}}.
+
+\bibitem{CMSHB}
+S.~Abdullin~{\it et al.}, Design, performance, and calibration of cms
+  hadron-barrel calorimeter wedges, The European Physical Journal C 55~(1)
+  (2008) 159--171.
+\newblock \href {http://dx.doi.org/10.1140/epjc/s10052-008-0573-y}
+  {\path{doi:10.1140/epjc/s10052-008-0573-y}}.
+
+\bibitem{HCALTDR1997}
+{The CMS hadron calorimeter project: Technical Design Report}, Technical Design
+  Report CMS, CERN, Geneva, 1997.
 
 \end{thebibliography}
