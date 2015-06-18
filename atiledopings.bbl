@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -24,5 +24,80 @@ S.~Abdullin~{\it et al.}, Design, performance, and calibration of cms
 \bibitem{HCALTDR1997}
 {The CMS hadron calorimeter project: Technical Design Report}, Technical Design
   Report CMS, CERN, Geneva, 1997.
+
+\bibitem{ecfa2015}
+\href{https://cds.cern.ch/record/1983664}{{ECFA High Luminosity LHC Experiments
+  Workshop: Physics and Technology Developments Summary submitted to ECFA. 96th
+  Plenary ECFA meeting}}.
+\newline\urlprefix\url{https://cds.cern.ch/record/1983664}
+
+\bibitem{vasken}
+V.~Hagopian, I.~Daly, Radiation damage of fibers, AIP Conference Proceedings
+  450~(1) (1998) 53--61.
+\newblock \href {http://dx.doi.org/http://dx.doi.org/10.1063/1.56958}
+  {\path{doi:http://dx.doi.org/10.1063/1.56958}}.
+
+\bibitem{phaseiitdr}
+J.~F. Butler, D.~U. C. B.-L.~I. Contardo, M.~M. Klute, J.~U. o.~M. Mans,
+  L.~I.-B. Silvestris, \href{https://cds.cern.ch/record/2020886}{{Technical
+  Proposal for the Phase-II Upgrade of the CMS Detector}}, Tech. Rep.
+  CERN-LHCC-2015-010. LHCC-P-008, CERN, Geneva, upgrade Project Leader
+  Deputies: Lucia Silvestris (INFN-Bari), Jeremy Mans (University of Minnesota)
+  Additional contacts: Lucia.Silvestris@cern.ch, Jeremy.Mans@cern.ch (Jun
+  2015).
+\newline\urlprefix\url{https://cds.cern.ch/record/2020886}
+
+\bibitem{sauli}
+C.~Zorn, Plastic and liquid organic scintillators, in: F.~Sauli (Ed.),
+  Instrumentation in High Energy Physics, 2nd Edition, World Scientific, 1993,
+  Ch.~4, pp. 218--279.
+\newblock \href {http://dx.doi.org/10.1142/9789814360333_0004}
+  {\path{doi:10.1142/9789814360333_0004}}.
+
+\bibitem{34504}
+U.~Holm, K.~Wick, Radiation stability of plastic scintillators and wave-length
+  shifters, Nuclear Science, IEEE Transactions on 36~(1) (1989) 579--583.
+\newblock \href {http://dx.doi.org/10.1109/23.34504}
+  {\path{doi:10.1109/23.34504}}.
+
+\bibitem{Wick1991472}
+K.~Wick, D.~Paul, P.~SchrÃ¶der, V.~Stieber, B.~Bicken, Recovery and dose rate
+  dependence of radiation damage in scintillators, wavelength shifters and
+  light guides, Nuclear Instruments and Methods in Physics Research Section B:
+  Beam Interactions with Materials and Atoms 61~(4) (1991) 472 -- 486.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/0168-583X(91)95325-8}
+  {\path{doi:http://dx.doi.org/10.1016/0168-583X(91)95325-8}}.
+
+\bibitem{289295}
+B.~Bicken, U.~Holm, T.~Marckmann, K.~Wick, M.~Rohde, Recovery and permanent
+  radiation damage of plastic scintillators at different dose rates, Nuclear
+  Science, IEEE Transactions on 38~(2) (1991) 188--193.
+\newblock \href {http://dx.doi.org/10.1109/23.289295}
+  {\path{doi:10.1109/23.289295}}.
+
+\bibitem{173180}
+B.~Bicken, A.~Dannemann, U.~Holm, T.~Neumann, K.~Wick, Influence of temperature
+  treatment on radiation stability of plastic scintillator and wave-length
+  shifter, Nuclear Science, IEEE Transactions on 39~(5) (1992) 1212--1216.
+\newblock \href {http://dx.doi.org/10.1109/23.173180}
+  {\path{doi:10.1109/23.173180}}.
+
+\bibitem{173178}
+A.~Bross, A.~Pla-Dalmau, Radiation damage of plastic scintillators, Nuclear
+  Science, IEEE Transactions on 39~(5) (1992) 1199--1204.
+\newblock \href {http://dx.doi.org/10.1109/23.173178}
+  {\path{doi:10.1109/23.173178}}.
+
+\bibitem{Giokaris1993315}
+N.~Giokaris, M.~Contreras, A.~Pla-Dalmau, J.~Zimmerman, K.~Johnson,
+  \href{http://www.sciencedirect.com/science/article/pii/0969806X93900697}{Study
+  of dose-rate effects on the radiation damage of polymer-based scsn23, scsn81,
+  scsn81+y7, scsn81+y8 and 3hf scintillators}, Radiation Physics and Chemistry
+  41~(1–2) (1993) 315 -- 320.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/0969-806X(93)90069-7}
+  {\path{doi:http://dx.doi.org/10.1016/0969-806X(93)90069-7}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/0969806X93900697}
 
 \end{thebibliography}

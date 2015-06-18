@@ -4,45 +4,47 @@ The top-level auxiliary file: atiledopings.aux
 The style file: elsarticle-num.bst
 Database file #1: atiledopings.bib
 Warning--empty author and editor in HCALTDR1997
-You've used 3 entries,
+Warning--empty author in ecfa2015
+Warning--empty journal in ecfa2015
+You've used 13 entries,
             2937 wiz_defined-function locations,
-            693 strings with 5707 characters,
-and the built_in function-call counts, 830 in all, are:
-= -- 77
-> -- 9
-< -- 0
-+ -- 5
-- -- 2
-* -- 64
-:= -- 119
-add.period$ -- 5
-call.type$ -- 3
-change.case$ -- 2
-chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 22
-empty$ -- 105
-format.name$ -- 2
-if$ -- 216
+            771 strings with 8084 characters,
+and the built_in function-call counts, 4294 in all, are:
+= -- 419
+> -- 120
+< -- 4
++ -- 48
+- -- 35
+* -- 372
+:= -- 585
+add.period$ -- 23
+call.type$ -- 13
+change.case$ -- 15
+chr.to.int$ -- 3
+cite$ -- 16
+duplicate$ -- 123
+empty$ -- 471
+format.name$ -- 43
+if$ -- 1106
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 3
-newline$ -- 19
-num.names$ -- 2
-pop$ -- 16
+int.to.str$ -- 13
+missing$ -- 12
+newline$ -- 60
+num.names$ -- 13
+pop$ -- 69
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 54
+skip$ -- 258
 stack$ -- 0
-substring$ -- 48
-swap$ -- 6
-text.length$ -- 0
+substring$ -- 245
+swap$ -- 46
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 4
-width$ -- 4
-write$ -- 34
-(There was 1 warning)
+warning$ -- 3
+while$ -- 24
+width$ -- 15
+write$ -- 136
+(There were 3 warnings)
