@@ -37,6 +37,13 @@ V.~Hagopian, I.~Daly, Radiation damage of fibers, AIP Conference Proceedings
 \newblock \href {http://dx.doi.org/http://dx.doi.org/10.1063/1.56958}
   {\path{doi:http://dx.doi.org/10.1063/1.56958}}.
 
+\bibitem{ByonWagner1993263}
+A.~Byon-Wagner, Radiation hardness test programs for the \{SDC\} calorimeter,
+  Radiation Physics and Chemistry 41~(1–2) (1993) 263 -- 271.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/0969-806X(93)90064-2}
+  {\path{doi:http://dx.doi.org/10.1016/0969-806X(93)90064-2}}.
+
 \bibitem{phaseiitdr}
 J.~F. Butler, D.~U. C. B.-L.~I. Contardo, M.~M. Klute, J.~U. o.~M. Mans,
   L.~I.-B. Silvestris, \href{https://cds.cern.ch/record/2020886}{{Technical
@@ -99,5 +106,31 @@ N.~Giokaris, M.~Contreras, A.~Pla-Dalmau, J.~Zimmerman, K.~Johnson,
   {http://dx.doi.org/http://dx.doi.org/10.1016/0969-806X(93)90069-7}
   {\path{doi:http://dx.doi.org/10.1016/0969-806X(93)90069-7}}.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/0969806X93900697}
+
+\bibitem{Biagtan1996125}
+E.~Biagtan, E.~Goldberg, R.~Stephens, E.~Valeroso, J.~Harmon, Gamma dose and
+  dose rate effects on scintillator light output, Nuclear Instruments and
+  Methods in Physics Research Section B: Beam Interactions with Materials and
+  Atoms 108~(1–2) (1996) 125 -- 128.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/0168-583X(95)00874-8}
+  {\path{doi:http://dx.doi.org/10.1016/0168-583X(95)00874-8}}.
+
+\bibitem{zorn3}
+C.~Zorn, S.~Majewski, R.~Wojcik, K.~Johnson, Progress in the design of a
+  radiation-hard plastic scintillator, Nuclear Science, IEEE Transactions on
+  38~(2) (1991) 194--199.
+\newblock \href {http://dx.doi.org/10.1109/23.289296}
+  {\path{doi:10.1109/23.289296}}.
+
+\bibitem{Bross199135}
+A.~Bross, A.~Pla-Dalmau, B.~Baumbaugh, J.~Godfrey, J.~Jaques, J.~Marchant,
+  J.~Piekarz, R.~Ruchti, Development and characterization of new scintillation
+  materials for fiber tracking and calorimetry, Nuclear Instruments and Methods
+  in Physics Research Section A: Accelerators, Spectrometers, Detectors and
+  Associated Equipment 307~(1) (1991) 35 -- 46.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/0168-9002(91)90128-D}
+  {\path{doi:http://dx.doi.org/10.1016/0168-9002(91)90128-D}}.
 
 \end{thebibliography}

@@ -6,45 +6,45 @@ Database file #1: atiledopings.bib
 Warning--empty author and editor in HCALTDR1997
 Warning--empty author in ecfa2015
 Warning--empty journal in ecfa2015
-You've used 13 entries,
+You've used 17 entries,
             2937 wiz_defined-function locations,
-            771 strings with 8084 characters,
-and the built_in function-call counts, 4294 in all, are:
-= -- 419
-> -- 120
+            798 strings with 8984 characters,
+and the built_in function-call counts, 5700 in all, are:
+= -- 553
+> -- 178
 < -- 4
-+ -- 48
-- -- 35
-* -- 372
-:= -- 585
-add.period$ -- 23
-call.type$ -- 13
-change.case$ -- 15
++ -- 70
+- -- 53
+* -- 507
+:= -- 783
+add.period$ -- 31
+call.type$ -- 17
+change.case$ -- 19
 chr.to.int$ -- 3
-cite$ -- 16
-duplicate$ -- 123
-empty$ -- 471
-format.name$ -- 43
-if$ -- 1106
+cite$ -- 20
+duplicate$ -- 154
+empty$ -- 611
+format.name$ -- 64
+if$ -- 1456
 int.to.chr$ -- 0
-int.to.str$ -- 13
-missing$ -- 12
-newline$ -- 60
-num.names$ -- 13
-pop$ -- 69
+int.to.str$ -- 17
+missing$ -- 16
+newline$ -- 76
+num.names$ -- 17
+pop$ -- 84
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 258
+skip$ -- 334
 stack$ -- 0
-substring$ -- 245
-swap$ -- 46
+substring$ -- 341
+swap$ -- 58
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 24
-width$ -- 15
-write$ -- 136
+while$ -- 32
+width$ -- 19
+write$ -- 176
 (There were 3 warnings)
