@@ -42,7 +42,7 @@
 
 \begin{frontmatter}
 
-\title{Radiation damage for scintillator rods with different concentrations of dopants and antioxidants
+\title{Radiation damage of scintillator rods with different concentrations of dopants and antioxidants
 }
 
 
@@ -139,13 +139,16 @@ were performed at the National Institute of Standards and Technology, Gaithersbu
 \section{Measurement technique}
 The light output from the rods is measured before and after
 irradiation using an alpha source, as shown in Fig.~\ref{fig:hd} [right].
+Before measurement, the rods were allowed to anneal
+at least 2 months,  until all the temporary damage was gone.
 The rod is placed on a Hamamatsu \textcolor{red}{RXXX} PMT, and the
 source is placed on the rod.  An alignment jig ensures reproducibility
 of the alignment of the three pieces.  The measurements were made using
 a \textcolor{red}{textronics scope XXXXX}, with a charge integration
 window of \textcolor{red}{xx$\mu s$}.
 A typical output spectrum is shown in Fig.~\ref{fig:hd} [right].
-The distribution is fit to a Gaussian near the peak, and its mean is used as a measure of the light yield.
+The distribution is fit to a Gaussian near the peak, and its mean is used as a measure of the light yield.  The uncertainty in the light output is taken as the variation in this mean for measurements taken at different times, and after removing and replacing the rod from the jig, and is
+\textcolor{red}{$\pm 2$\%}.
 
 \begin{figure}[hbtp]
 \centering
