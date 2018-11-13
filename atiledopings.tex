@@ -42,32 +42,28 @@
 
 \begin{frontmatter}
 
-\title{Performance of scintillator tiles with different doping concentrations after irradiation }
+\title{Radiation damage for scintillator rods with different concentrations of dopants and antioxidants
+}
 
 
 %% or include affiliations in footnotes:
 \author[umd]{Geng-Yuan Jeng\corref{mycorrespondingauthor}}
 \cortext[mycorrespondingauthor]{Corresponding author}
 \ead{Geng-Yuan.Jeng@cern.ch}
-\author[umd]{Alberto Belloni}
-\author[umd]{Sarah C. Eno}
-\author[baylor]{Kenichi Hatakeyama}
-\author[princeton]{Christopher Tully}
 \author[umd]{Yao Yao}
 
 
 \address[umd]{Dept. Physics, U. Maryland, College Park MD 30742 USA}
-\address[eljen]{Eljen Technology, 1300 W. Broadway, Sweetwater, TX 79556 USA}
-\address[fnal]{Fermi National Accelerator Laboratory, Batavia, IL, USA}
-\address[baylor]{Baylor University, Waco, Texas, USA}
-\address[princeton]{Princeton University, Princeton, NJ, USA}
+
+
 
 \begin{abstract}
 The performance of plastic scintillator degrades when exposed to radiation. 
-The reduction in light output may be ameliorated by using scintillator
-with higher dopant concentrations and with light output at longer wavelengths.
-We present results on the degradation of light output of scintillator
-tiles with embedded wavelength shifting  fibers  when irradiated by a $\rm{^{60}Co}$ source for a variety of concentrations of the primary and secondary dopant, doses, and dose rates.  Tiles made from a blue scintillator with blue-to-green wavelength shifting fiber and for green scintillator with green-to-orange wavelength shifting fiber are presented.
+In this paper, the reduction in light output is studied for scintillators
+with varying concentrations of the primary dopant, secondary dopant, and
+dissolved antioxidant as a function of dose rate.
+The scintillators used polystyrene or polyvinyltolune as the substrate, and
+produced blue or green light. \textcolor{red}{some findings here}
 \end{abstract}
 
 \begin{keyword}
@@ -79,197 +75,112 @@ organic scintillator\sep radiation hardness \sep calorimetry
 \linenumbers
 
 \section{Introduction}
-Sampling calorimeters using plastic scintillator tiles
-with wavelength-shifting (WLS) fibers as the active element
-have been part of hadron
-collider experiments since the mid 1990's, when the CDF plug
-calorimeter was constructed~\cite{Aota1995557}.  Both the CMS
-Barrel~\cite{CMSHB} and Endcap~\cite{HCALTDR1997} calorimeters use a similar design.
+Plastic scintillator has long been an inexpensive way to detect charged particles produced in particle physics experiments.
+Plastic scintillators consist of a plastic substrate, 
+often polystyrene (PS) or polyvynyltoluene (PVT),
+into which wavelength 
+shifting primary and secondary fluors have been dissolved.
+When a charged particle traverses the scintillator, the molecules of the substrate are excited.  
+This excitation can be transferred to the primary fluor radiatively in the deep UV at low concentrations or via the F{\"o}rster 
+mechanism~\cite{forster} at concentrations above $\approx$ 1\%~\cite{birks}.  
+The primary fluor transfers the excitation radiatively to the secondary fluor.  
+The visible light by de-excitation of the secondary flour
+must traverse the scintillator to reach a photodetector, and can be absorbed by ``color centers'' along its path.
+
+
 Prolonged exposure of plastic scintillator to
 ionizing radiation, however, can result in damage:
-light self-absorption (yellowing) increases and
-the transfer efficiency of the initial excitation of the polymer to the
-dopants combined with the probability of radiative decays for the dopants (``initial light output'') can lessen.  
-During the running of the LHC from its commissioning in 2009
-through 2012, the CMS
-detector was exposed to an integrated luminosity of 25 ${\rm fb^{-1}}$.  Parts of the
-CMS endcap calorimeter are estimated to have received doses of 0.1 to 0.2 Mrad~\cite{ecfa2015}.
-Studies of the radiation hardness of scintillator tiles
-prior to installation in the detector,
-using an electron linac and ${\rm ^{60}Co}$ sources,
-indicated an exponential reduction in 
-light output with accumulated dose, with a exponential constant of 
-around 7 Mrad~\cite{vasken,ByonWagner1993263}.  
-However, although the dose received by the CMS tiles was
-small compared to this number,
-significant light loss was observed ~\cite{phaseiitdr}.
-
+light self-absorption by the color centers (yellowing) increases when the radicals created during irradiation re-terminate in ways that absorb visible light.
+The transfer efficiency of the initial excitation of the polymer to the
+dopants combined with the probability of radiative decays for the dopants (``initial light output'') can lessen
+when bonds form that absorb in the ultraviolet.
 
 The effect of radiation on plastic scintillator is known to depend
-both on dose and dose rate ~\cite{sauli,34504,Wick1991472,289295,173180,173178,Giokaris1993315}.  The increased self-absorption immediately after exposure is larger at high dose rate. However, after exposure, interactions 
-with oxygen that diffuses into
-the plastic decreases the initial damage, and the ``permanent'' damage after
-a recovery time (typically a month) is usually independent of dose rate~\cite{sauli}.  
-While the permanent damage to the light self absorption may be
-independent of dose rate, some studies indicate that the 
-permanent damage to the initial light output depends
-on dose rate~\cite{Biagtan1996125} and that increasing the dopant concentration
-can help alleviate this~\cite{zorn3,sauli}.  The dose rates 
-insitu at hadron collider experiments being much lower than those
-used for reactor and linac tests may be part of the explanation
-for the higher-than-expected damage to the CMS tiles.
+both on dose and dose rate ~\cite{sauli,34504,Wick1991472,289295,173180,173178,Giokaris1993315,gillen,1748-0221-11-10-T10004}.  
+Two well-studied~\cite{clough1,bolland1,bolland2,bateman,cunliffe,Wick1991472,Biagtan1996125}
+sources of dose rate effects in plastics
+involve oxygen.   The penetration depth of oxygen
+during irradiation depends on the dose rate.
+The rate of peroxide
+formation in the areas containing oxygen can as well~\cite{clough1}.
+At low enough dose rate, oxygen permeates the plastic 
+and the radicals created during irradiation tend to quickly
+form peroxides that absorb in the ultraviolet~\cite{clough1}, affecting the initial light output.  
+The rate of peroxide formation may depend on the dose rate if the bond formed is bimolecular.
+At high enough dose rate, however, the penetration depth for oxygen may
+be thinner than the thickness of the plastic, and many short-lived ``temporary'' color centers can form in the oxygen-free regions.  
+These color centers anneal after irradiation either by reforming bonds or by forming peroxides when oxygen re-permeates the plastic.
 
-In addition, many studies have shown that induced self-absorption is stronger 
-at shorter wavelengths and thus scintillators that produce green light should
-be more radiation resistant than the more common blue scintillators
-~\cite{Bross199135,sauli,Giokaris1993315}.  Dose rate effects may
-therefore be smaller for such scintillators as well.
-
-In this paper, we present measurements of the ratio of the light output before and after irradiation
-for tiles based on two different types of plastic scintillator manufactured by Eljen Technology, EJ-200 (a blue scintillator, 
-similar to BC-408 from Bicron corporation) 
-and 
-EJ-260 (a green scintillator, similar to BC-428), before and after irradiation by a $\rm {^{60}Co}$ source for doses of 50, 30, 10, 4, and 2 Mrad at various dose rates and for different concentrations of the primary and secondary dopant.
+Because of this, dose rate effects might be ameliorated either by increasing the concentration of the dopant or by increasing the concentration of antioxidants, preventing the formation of peroxides.
 
 
-\section{Tile design}
-We tested two different tile designs.  Both used scintillator
-with dimensions of 10 cm x 10 cm x 4 mm.  A blue-to-green multi-clad WLS fiber
-from Kuraray (Y-11) with a diameter of 1mm was used for with the EJ-200.  A green-to-orange multi-clad WLS fiber from Kuraray Corporation 
-(S-type O-2) with a dye concentration of 100 ppm and a diameter of 1 mm was used with the EJ-260.  Aluminum was sputtered onto one end of the fiber
-to increase the light output.
-A square ``${\rm \sigma}$''-shaped groove similar to that used for the 
-CMS tiles~\cite{CMSHB} was machined into the plastic, and the fiber was inserted
-into the groove.  The tiles were wrapped with a tyvek covering, held together with tape.
+In this paper, we present measurements of the light output 
+of blue and green scintillator rods 
+before and after irradiation for various concentrations of dopants and antioxidants, and
+as a function of the material used for the substrate.
+The damage is studied for 
+for dose rates from \textcolor{red}{xxx to xxx}.
+
+
+\section{Sample and irradiation details}
+The rods were supplied by Eljen Corporation, and
+are similar to EJ-200, a blue scintillator, and EJ-260, a green one, using either
+polystyrene (PS) or polyvinyltoluene (PVT) as the substrate.
+They are rectangular, with dimensions of 1x1x5~$\rm{cm^3}$, 
+and the edges were diamond milled.
+The concentration of the primary dopant and the secondary dopant
+was 0.5, 1.0, and 2.0 times the nominal concentration.
+The amount of antioxidant was 0, 1, and 2 times the nominal concentration.
+Fig.~\ref{fig:fg} [left] shows a photograph of some of the rodes.
+
+High dose rate irradiations \textcolor{red}{( xxx--xxx~krad/hr)}
+were performed at the National Institute of Standards and Technology, Gaithersburg, MD, using their Colbalt-60 (Co-60) source.  Intermediate dose rate irradiations (\textcolor{red}{xxx--xxx~krad/hr}) were performed at Goddard Space Flight Center's Co-60 source.  Very low dose rate were measured using the GIF++ facility\cite{gif} at CERN.  The source is \textcolor{red}{Cs-137?} and the dose rate \textcolor{red}{xxx~krad/hr}.
+
+\section{Measurement technique}
+The light output from the rods is measured before and after
+irradiation using an alpha source, as shown in Fig.~\ref{fig:hd} [right].
+The rod is placed on a Hamamatsu \textcolor{red}{RXXX} PMT, and the
+source is placed on the rod.  An alignment jig ensures reproducibility
+of the alignment of the three pieces.  The measurements were made using
+a \textcolor{red}{textronics scope XXXXX}, with a charge integration
+window of \textcolor{red}{xx$\mu s$}.
+A typical output spectrum is shown in Fig.~\ref{fig:hd} [right].
+The distribution is fit to a Gaussian near the peak, and its mean is used as a measure of the light yield.
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=0.25\textwidth]{Setup_AlphaSource.pdf}
+\includegraphics[width=0.25\textwidth]{Setup_AlphaSource.pdf}
+\caption{
+[left] photograph of some of the rods
+[right] Apparatus for measurements with alpha source.
+}
+  \label{fig:hd}
+\end{figure}
+
+The amount of radiation damage is quantified 
+using $D$ defined in Equation~\ref{eqn:exp}.
+\begin{equation}
+\frac{L(d)}{L_0}=\exp{-d/D}
+\label{eqn:exp}
+\end{equation}
+where $L(d)$ is the light output after a dose $d$, $L_0$ is the initial light
+output, and $D$ is the exponential dose constant from the fit.
 
 
 \section{Results}
-The tiles were irradiated at the University of Maryland
-${\rm ^{60}Co}$ source.  The dose was measured using
-{\color{red} I don't know.}  The light output was measured using cosmic rays.
-Scintillator-based counters above and below the tile were used for triggering.
-  No attempt was made to select minimum ionizing (mip) muons.  The muons were thus
-of low energy and produce more light than mips.
 
-For the EJ-200 tile, the light output was measured using a Hamamatsu
-R7600U-200-M4 photomultiplier tube.  As photomultiplier tubes have lower sensitivity for orange light, a {\color{red} sipmm of some sort} was used for the EJ-260 tiles.
-The fiber was connected
-to the photodetector using optical glue.  Data was collected with a Tektronix MSO 5204 oscilloscope interfaced with Labview.
 
-Figure ~\ref{fig:fig1} shows the light output for the EJ-260 tile before irradiation.  Due to the excellent resolution of the sipmm, clear peaks corresponding to different numbers of photoelectrons are seen.  The average number of photoelectrons is xxx.
-
-\begin{figure}[!ht]
-\begin{center}
-\includegraphics[width=0.49\textwidth]{./figures/placeholder.pdf}
-\caption{
-Light output for the EJ-260 tile before irradiation.  The peaks correspond to integer numbers
-of observed photoelectrons.
-}
-\label{fig:fig1}
-\end{center}
-\end{figure}
-
-Table ~\ref{tab:ResultsEJ200} shows the ratio of the average light output
-for the EJ-200 tiles to that before irradiation.
-Figure ~\ref{fig:fig2} shows the ratio of the average light output
-for the EJ-200 tiles to that before irradiation as a function of dose rate
-for several total doses.
-
-\begin{table}[thb]
+\begin{figure}[hbtp]
 \centering
-\caption{
-Ratio of average light output from tiles to that before irradiation
-for the tile using EJ-200 scintillator.  For the concentrations
-of the dopants, NpMs refers to N times the default concentration of primary and M times the default concentration of the secondary dopant
-the commercial version of the product.
-}
-\label{tab:ResultsEJ200}
-{\small
-\begin{tabular}{|l| l| l| l| l| l|}
-\hline
-Dose & Dose rate  &\multicolumn{4}{|l|}{light output ratio for dopings} \\
-(Mrad)  & (Mrad/hr) & 1p1s & 0.5p1s & 1.5p1s & 2.0p1s   \\
-\hline
-\hline
-0 & $-$ & 1.0 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\ \hline
-2 & 0.1 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\
-2 & 0.3 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\
-2 & 1.0 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\ \hline
-4 & 0.1 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\
-4 & 0.3 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\
-4 & 1.0 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\ \hline
-10 & 0.3 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\
-10 & 1.0 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\ \hline
-30 & 1.0 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\ \hline
-50 & 1.0 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\ \hline
-\hline
-\end{tabular}
-}
-\end{table}
-
-
-\begin{figure}[!ht]
-\begin{center}
-\includegraphics[width=0.49\textwidth]{./figures/placeholder.pdf}
-\caption{
-Ratio average light output for the EJ-260 tiles to that before irradiation versus dose rate for several total doses.
-}
-\label{fig:fig2}
-\end{center}
+\includegraphics[width=0.45\textwidth]{AlphaSourceMeasurement-EJ200OLD_nominal.pdf}
+\includegraphics[width=0.45\textwidth]{DoseConstVsDoseRate}
+    \caption{
+[left] A typical energy spectrum 
+[right] resulting dose constants and comparison with the HE data. \textcolor{red}{need version without HE data}
+    }
+    \label{fig:GY_more2}
 \end{figure}
-
-%%%%%
-%%%%%
-%%%%%
-Table ~\ref{tab:ResultsEJ260} shows the ratio of the average light output
-for the EJ-260 tiles to that before irradiation.
-Figure ~\ref{fig:fig3} shows the ratio of the average light output
-for the EJ-260 tiles to that before irradiation as a function of dose rate
-for several total doses.
-
-\begin{table}[thb]
-\centering
-\caption{
-Ratio of average light output from tiles to that before irradiation
-for the tile using EJ-260 scintillator.  For the concentrations
-of the dopants, NpMs refers to N times the default concentration of primary and M times the default concentration of the secondary dopant
-the commercial version of the product.
-}
-\label{tab:ResultsEJ260}
-{\small
-\begin{tabular}{|l| l| l| l| l| l| l| l| l|}
-\hline
-Dose & Dose rate  &\multicolumn{7}{|l|}{light output ratio for dopings} \\
-(Mrad)  & (Mrad/hr) & 1p1s & 2p1s & 4p1s & 1p2s & 1p4s & 2p2s & 4p4s   \\
-\hline
-\hline
-0 & $-$ & 1.0 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}& {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\ \hline
-2 & 0.1 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}& {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\
-2 & 0.3 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}& {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\
-2 & 1.0 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}& {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\ \hline
-4 & 0.1 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}& {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\
-4 & 0.3 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\ 
-4 & 1.0 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}& {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\ \hline
-10 & 0.3 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}& {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\
-10 & 1.0 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}& {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\ \hline
-30 & 1.0 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}& {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\ \hline
-50 & 1.0 & {\color{red} xx} & {\color{red} xx} & {\color{red} xx} & {\color{red} xx}& {\color{red} xx} & {\color{red} xx} & {\color{red} xx}\\ \hline
-\hline
-\end{tabular}
-}
-\end{table}
-
-
-\begin{figure}[!ht]
-\begin{center}
-\includegraphics[width=0.49\textwidth]{./figures/placeholder.pdf}
-\caption{
-Ratio average light output for the EJ-260 tiles to that before irradiation versus dose rate for several total doses.
-}
-\label{fig:fig3}
-\end{center}
-\end{figure}
-
 
 
 
@@ -277,11 +188,11 @@ Ratio average light output for the EJ-260 tiles to that before irradiation versu
 \section{Conclusions}
 
 \section{Acknowledgments}
-The authors would like to thank {\color{red} various people} at
-the University of Maryland's Nuclear Reactor and Radiation
+The authors would like to thank Chuck Hurlbut of Eljen Corporation for supplying many of the rods.
+The authors would like to thank the staff
+Goddard Space Flight Center and at the National Institute of Standards and Technology irradiation
 Facilities group for assistance
-with the irradiations.  We would like to thank the University of Maryland
-FabLab, especially {\color{red} who helped}, for help with fiber sputtering.
+with the irradiations. 
 This work was supported in part by U.S. Department of Energy Grant DESC0010072.
 
 \section*{References}

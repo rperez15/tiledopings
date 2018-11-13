@@ -358,7 +358,15 @@ language={English}
       }
 
 
-
+@book{birks,
+      title         = "{The Theory and Practice of Scintillation Counting}",
+      author        = "J.B. ~Birks",
+      publisher     = "Pergamon Press, The Macmillan Company",
+      address       = "New York",
+      series        = "International Series of Monographs on Electronics and Instrumentation, Volume 27",
+      year          = "1964",
+      ISBN          = "1483123642",
+}
 
 @book{HCALTDR1997,
       title         = "{The CMS hadron calorimeter project: Technical Design

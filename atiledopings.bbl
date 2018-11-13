@@ -5,54 +5,15 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
-\bibitem{Aota1995557}
-S.~Aota~{\it et al.}, A scintillating tile/fiber system for the cdf plug
-  upgrade em calorimeter, Nuclear Instruments and Methods in Physics Research
-  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment
-  352~(3) (1995) 557 -- 568.
-\newblock \href
-  {http://dx.doi.org/http://dx.doi.org/10.1016/0168-9002(95)90005-5}
-  {\path{doi:http://dx.doi.org/10.1016/0168-9002(95)90005-5}}.
+\bibitem{forster}
+T.~Forster, Z. Naturforsch. a4 (1949) 321.
 
-\bibitem{CMSHB}
-S.~Abdullin~{\it et al.}, Design, performance, and calibration of cms
-  hadron-barrel calorimeter wedges, The European Physical Journal C 55~(1)
-  (2008) 159--171.
-\newblock \href {http://dx.doi.org/10.1140/epjc/s10052-008-0573-y}
-  {\path{doi:10.1140/epjc/s10052-008-0573-y}}.
-
-\bibitem{HCALTDR1997}
-{The CMS hadron calorimeter project: Technical Design Report}, Technical Design
-  Report CMS, CERN, Geneva, 1997.
-
-\bibitem{ecfa2015}
-\href{https://cds.cern.ch/record/1983664}{{ECFA High Luminosity LHC Experiments
-  Workshop: Physics and Technology Developments Summary submitted to ECFA. 96th
-  Plenary ECFA meeting}}.
-\newline\urlprefix\url{https://cds.cern.ch/record/1983664}
-
-\bibitem{vasken}
-V.~Hagopian, I.~Daly, Radiation damage of fibers, AIP Conference Proceedings
-  450~(1) (1998) 53--61.
-\newblock \href {http://dx.doi.org/http://dx.doi.org/10.1063/1.56958}
-  {\path{doi:http://dx.doi.org/10.1063/1.56958}}.
-
-\bibitem{ByonWagner1993263}
-A.~Byon-Wagner, Radiation hardness test programs for the \{SDC\} calorimeter,
-  Radiation Physics and Chemistry 41~(1–2) (1993) 263 -- 271.
-\newblock \href
-  {http://dx.doi.org/http://dx.doi.org/10.1016/0969-806X(93)90064-2}
-  {\path{doi:http://dx.doi.org/10.1016/0969-806X(93)90064-2}}.
-
-\bibitem{phaseiitdr}
-J.~F. Butler, D.~U. C. B.-L.~I. Contardo, M.~M. Klute, J.~U. o.~M. Mans,
-  L.~I.-B. Silvestris, \href{https://cds.cern.ch/record/2020886}{{Technical
-  Proposal for the Phase-II Upgrade of the CMS Detector}}, Tech. Rep.
-  CERN-LHCC-2015-010. LHCC-P-008, CERN, Geneva, upgrade Project Leader
-  Deputies: Lucia Silvestris (INFN-Bari), Jeremy Mans (University of Minnesota)
-  Additional contacts: Lucia.Silvestris@cern.ch, Jeremy.Mans@cern.ch (Jun
-  2015).
-\newline\urlprefix\url{https://cds.cern.ch/record/2020886}
+\bibitem{birks}
+J.~Birks, {The Theory and Practice of Scintillation Counting}, International
+  Series of Monographs on Electronics and Instrumentation, Volume 27, Pergamon
+  Press, The Macmillan Company, New York, 1964.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/C2013-0-01791-4}
+  {\path{doi:https://doi.org/10.1016/C2013-0-01791-4}}.
 
 \bibitem{sauli}
 C.~Zorn, Plastic and liquid organic scintillators, in: F.~Sauli (Ed.),
@@ -107,6 +68,48 @@ N.~Giokaris, M.~Contreras, A.~Pla-Dalmau, J.~Zimmerman, K.~Johnson,
   {\path{doi:http://dx.doi.org/10.1016/0969-806X(93)90069-7}}.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/0969806X93900697}
 
+\bibitem{gillen}
+K.~Gillen, M.~Celina, Predicting polymer degradation and mechanical property
+  changes for combined radiation-thermal aging environments, RC\&T 91 (2018)
+  27.
+\newblock \href {http://dx.doi.org/https://doi.org/10.5254/rct.18.81679}
+  {\path{doi:https://doi.org/10.5254/rct.18.81679}}.
+
+\bibitem{1748-0221-11-10-T10004}
+V.~Khachatryan, et~al.,
+  \href{http://stacks.iop.org/1748-0221/11/i=10/a=T10004}{Dose rate effects in
+  the radiation damage of the plastic scintillators of the cms hadron endcap
+  calorimeter}, JINST 11 (2016) T10004.
+\newblock \href {http://dx.doi.org/10.1088/1748-0221/11/10/T10004}
+  {\path{doi:10.1088/1748-0221/11/10/T10004}}.
+\newline\urlprefix\url{http://stacks.iop.org/1748-0221/11/i=10/a=T10004}
+
+\bibitem{clough1}
+S.~Shalaby, R.~Clough, Radiation effects on polymers, Am. Chem. Soc. Symp. Ser.
+  475 (1991) 457.
+
+\bibitem{bolland1}
+J.~Bolland, Kinetic studies in the chemistry of rubber and related materials,
+  J. L. Proc. R. Soc. A186 (1946) 218.
+
+\bibitem{bolland2}
+Bolland, Kinetic studies in the chemistry of rubber and related materials.
+  {VII}. --influence of chemical structure on the $\alpha$-methylenic
+  reactivity of olefins, Trans. Faraday Soc. 46 (1950) 358.
+\newblock \href {http://dx.doi.org/http://dx.doi.org/10.1039/TF9504600358}
+  {\path{doi:http://dx.doi.org/10.1039/TF9504600358}}.
+
+\bibitem{bateman}
+L.~Bateman, Olefin oxidation, Q. Rev. Chem. Soc 8 (1954) 147.
+
+\bibitem{cunliffe}
+A.~Cunlifee, Davis, Photo-oxidation of thick polymer samples - part {II}: the
+  influence of oxygen diffusion on the natural and artificial weathering of
+  polyolefins, Polym. Degrad. Stab. 4 (1982) 17.
+\newblock \href
+  {http://dx.doi.org/https://doi.org/10.1016/0141-3910(82)90003-9}
+  {\path{doi:https://doi.org/10.1016/0141-3910(82)90003-9}}.
+
 \bibitem{Biagtan1996125}
 E.~Biagtan, E.~Goldberg, R.~Stephens, E.~Valeroso, J.~Harmon, Gamma dose and
   dose rate effects on scintillator light output, Nuclear Instruments and
@@ -115,22 +118,5 @@ E.~Biagtan, E.~Goldberg, R.~Stephens, E.~Valeroso, J.~Harmon, Gamma dose and
 \newblock \href
   {http://dx.doi.org/http://dx.doi.org/10.1016/0168-583X(95)00874-8}
   {\path{doi:http://dx.doi.org/10.1016/0168-583X(95)00874-8}}.
-
-\bibitem{zorn3}
-C.~Zorn, S.~Majewski, R.~Wojcik, K.~Johnson, Progress in the design of a
-  radiation-hard plastic scintillator, Nuclear Science, IEEE Transactions on
-  38~(2) (1991) 194--199.
-\newblock \href {http://dx.doi.org/10.1109/23.289296}
-  {\path{doi:10.1109/23.289296}}.
-
-\bibitem{Bross199135}
-A.~Bross, A.~Pla-Dalmau, B.~Baumbaugh, J.~Godfrey, J.~Jaques, J.~Marchant,
-  J.~Piekarz, R.~Ruchti, Development and characterization of new scintillation
-  materials for fiber tracking and calorimetry, Nuclear Instruments and Methods
-  in Physics Research Section A: Accelerators, Spectrometers, Detectors and
-  Associated Equipment 307~(1) (1991) 35 -- 46.
-\newblock \href
-  {http://dx.doi.org/http://dx.doi.org/10.1016/0168-9002(91)90128-D}
-  {\path{doi:http://dx.doi.org/10.1016/0168-9002(91)90128-D}}.
 
 \end{thebibliography}

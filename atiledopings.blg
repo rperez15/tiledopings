@@ -1,50 +1,49 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: atiledopings.aux
 The style file: elsarticle-num.bst
 Database file #1: atiledopings.bib
-Warning--empty author and editor in HCALTDR1997
-Warning--empty author in ecfa2015
-Warning--empty journal in ecfa2015
+Warning--I didn't find a database entry for "gif"
+Warning--empty title in forster
 You've used 17 entries,
             2937 wiz_defined-function locations,
-            798 strings with 8984 characters,
-and the built_in function-call counts, 5700 in all, are:
-= -- 553
-> -- 178
-< -- 4
-+ -- 70
-- -- 53
-* -- 507
-:= -- 783
-add.period$ -- 31
+            802 strings with 8456 characters,
+and the built_in function-call counts, 5307 in all, are:
+= -- 519
+> -- 151
+< -- 3
++ -- 61
+- -- 44
+* -- 436
+:= -- 741
+add.period$ -- 30
 call.type$ -- 17
-change.case$ -- 19
+change.case$ -- 17
 chr.to.int$ -- 3
-cite$ -- 20
-duplicate$ -- 154
-empty$ -- 611
-format.name$ -- 64
-if$ -- 1456
+cite$ -- 18
+duplicate$ -- 151
+empty$ -- 583
+format.name$ -- 55
+if$ -- 1368
 int.to.chr$ -- 0
 int.to.str$ -- 17
-missing$ -- 16
-newline$ -- 76
-num.names$ -- 17
-pop$ -- 84
+missing$ -- 18
+newline$ -- 74
+num.names$ -- 19
+pop$ -- 81
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 334
+skip$ -- 332
 stack$ -- 0
-substring$ -- 341
-swap$ -- 58
-text.length$ -- 3
+substring$ -- 282
+swap$ -- 55
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 32
+warning$ -- 1
+while$ -- 36
 width$ -- 19
-write$ -- 176
-(There were 3 warnings)
+write$ -- 173
+(There were 2 warnings)
