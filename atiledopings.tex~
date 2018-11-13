@@ -60,7 +60,7 @@
 \begin{abstract}
 The performance of plastic scintillator degrades when exposed to radiation. 
 In this paper, the reduction in light output is studied for scintillators
-with varying concentrations of the primary dopant, secondary dopant and
+with varying concentrations of the primary dopant, secondary dopant, and
 dissolved antioxidant as a function of dose rate.
 The scintillators used polystyrene or polyvinyltolune as the substrate, and
 produced blue or green light. \textcolor{red}{some findings here}
@@ -127,8 +127,8 @@ The rods were supplied by Eljen Corporation, and
 are similar to EJ-200, a blue scintillator, and EJ-260, a green one, using either
 polystyrene (PS) or polyvinyltoluene (PVT) as the substrate.
 They are rectangular, with dimensions of 1x1x5~$\rm{cm^3}$, 
-and he edges were diamond milled.
-The amount of primary dopant and the amount of secondary dopant
+and the edges were diamond milled.
+The concentration of the primary dopant and the secondary dopant
 was 0.5, 1.0, and 2.0 times the nominal concentration.
 The amount of antioxidant was 0, 1, and 2 times the nominal concentration.
 Fig.~\ref{fig:fg} [left] shows a photograph of some of the rodes.
