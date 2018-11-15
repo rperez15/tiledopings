@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 NOV 2018 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 NOV 2018 11:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -325,9 +325,9 @@ LaTeX Warning: Reference `fig:fg' on page 2 undefined on input line 142.
 Package natbib Warning: Citation `gif' on page 3 undefined on input line 145.
 
 
-Overfull \hbox (4.15814pt too wide) in paragraph at lines 144--146
-\OT1/cmr/m/n/10 Colbalt-60 (Co-60) source. In-ter-me-di-ate dose rate ir-ra-di-
-a-tions ([]xxx--xxx krad/hr[])
+Overfull \hbox (1.38036pt too wide) in paragraph at lines 144--146
+\OT1/cmr/m/n/10 Cobalt-60 (Co-60) source. In-ter-me-di-ate dose rate ir-ra-di-a
+-tions ([]xxx--xxx krad/hr[])
  []
 
 <Setup_AlphaSource.pdf, id=91, 316.18124pt x 419.5675pt>
@@ -413,7 +413,7 @@ Here is how much of TeX's memory you used:
  9446 multiletter control sequences out of 15000+600000
  8442 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,7n,30p,462b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,7n,30p,461b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -429,7 +429,7 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on atiledopings.pdf (7 pages, 894126 bytes).
+Output written on atiledopings.pdf (7 pages, 894087 bytes).
 PDF statistics:
  344 PDF objects out of 1000 (max. 8388607)
  250 compressed objects within 3 object streams
