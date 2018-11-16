@@ -52,12 +52,12 @@
 \ead{Geng-Yuan.Jeng@cern.ch}
 \author[umd]{A. Belloni}
 \author[umd]{Shiyuan Duan}
-\author[umd]{S. Eno}
+\author[umd]{S. C. Eno}
 \author[umd]{T. Edberg}
-\author[umd]{C, Hinrich}
+\author[umd]{C. Hinrich}
 \author[umd]{C. Papageorgakis}
 \author[umd]{Ruhi Perez}
-\author[umd]{Cameron Sylber}
+\author[umd]{C. Sylber}
 \author[umd]{Zishuo Yang}
 \author[umd]{Yao Yao}
 \author[umd]{Yingyue Zhu}
@@ -70,8 +70,8 @@
 The performance of plastic scintillator degrades when exposed to radiation. 
 In this paper, the reduction in light output  as a function of dose rate
 is studied for scintillators
-with varying concentrations of the primary dopant, secondary dopant
-
+with varying concentrations of the primary dopant and secondary dopant.
+Our results include the lowest dose rates yet studied, \textcolor{red}{xxx~krad/hr}.
 The scintillators used polystyrene or polyvinyltoluene as the substrate, and
 produced blue or green light. \textcolor{red}{some findings here}
 \end{abstract}
@@ -114,7 +114,7 @@ during irradiation depends on the dose rate.
 For PS, the penetration depth goes as~\cite{Wick1991472,cloughPS}.
 \begin{linenomath}
 \begin{equation}
-z_0^2=\frac{4~$mm^2 krad/hr$}{\doserate}
+z_0^2=\frac{4 $mm^2 krad/hr$}{\doserate}
 \label{eqn:z0}
 \end{equation}
 \end{linenomath}
