@@ -72,7 +72,7 @@ In this paper, the reduction in light output  as a function of dose rate
 is studied for scintillators
 with varying concentrations of the primary dopant, secondary dopant
 
-The scintillators used polystyrene or polyvinyltolune as the substrate, and
+The scintillators used polystyrene or polyvinyltoluene as the substrate, and
 produced blue or green light. \textcolor{red}{some findings here}
 \end{abstract}
 
@@ -86,8 +86,8 @@ organic scintillator\sep radiation hardness \sep calorimetry
 
 \section{Introduction}
 Plastic scintillator has long been an inexpensive way to detect charged particles produced in particle physics experiments.
-Plastic scintillators consist of a plastic substrate, 
-often polystyrene (PS) or polyvynyltoluene (PVT),
+They consist of a plastic substrate, 
+often polystyrene (PS) or polyvinyltoluene (PVT),
 into which wavelength 
 shifting primary and secondary fluors have been dissolved.
 When a charged particle traverses the scintillator, the molecules of the substrate are excited.  
@@ -100,10 +100,10 @@ must traverse the scintillator to reach a photodetector, and can be absorbed by 
 
 Prolonged exposure of plastic scintillator to
 ionizing radiation, however, can result in damage:
-light self-absorption by the color centers (yellowing) increases when the radicals created during irradiation re-terminate in ways that absorb visible light.
+light self-absorption by the color centers (yellowing) increases when the radicals created during irradiation are unterminated or re-terminate in ways that absorb visible light.
 The transfer efficiency of the initial excitation of the polymer to the
 dopants combined with the probability of radiative decays for the dopants (``initial light output'') can lessen
-when bonds form that absorb in the ultraviolet.
+when bonds form that absorb in the ultraviolet or that decrease the relevent de-excitation mechanisms.
 
 The effect of radiation on plastic scintillator is known to depend
 both on dose and dose rate ~\cite{sauli,34504,Wick1991472,289295,173180,173178,Giokaris1993315,gillen,1748-0221-11-10-T10004}.  
@@ -111,16 +111,32 @@ Two well-studied~\cite{clough1,bolland1,bolland2,bateman,cunliffe,Wick1991472,Bi
 sources of dose rate effects in plastics
 involve oxygen.   The penetration depth of oxygen
 during irradiation depends on the dose rate.
+For PS, the penetration depth goes as~\cite{Wick1991472,cloughPS}.
+\begin{linenomath}
+\begin{equation}
+z_0^2=\frac{4~$mm^2 krad/hr$}{\doserate}
+\label{eqn:z0}
+\end{equation}
+\end{linenomath}
+There is an abrupt transition between areas with and without oxygen.  The
+oxygen  concentration
+in the oxidized regions is almost uniform~\cite{cloughPS}.
+For a tile with a thickness of 4\mm, oxygen permeates the entire sample at
+a \doserate of 1\unit{krad/hr}
+For {\doserate}s above this value, the damage to the scintillator
+will depend on the \doserate, as peroxides will form in the regions
+with oxygen, but will not in the regions without.
 The rate of peroxide
 formation in the areas containing oxygen can as well~\cite{clough1}.
 At low enough dose rate, oxygen permeates the plastic 
 and the radicals created during irradiation tend to quickly
-form peroxides that absorb in the ultraviolet~\cite{clough1}, affecting the initial light output.  
+form peroxides that absorb in the ultraviolet~\cite{clough1}, 
+affecting the initial light output.  
 The rate of peroxide formation may depend on the dose rate if the bond formed is bimolecular.
 At high enough dose rate, however, the penetration depth for oxygen may
 be thinner than the thickness of the plastic, and many short-lived ``temporary'' color centers can form in the oxygen-free regions.  
 These color centers anneal after irradiation either by reforming bonds or by forming peroxides when oxygen re-permeates the plastic.
-Because of this, dose rate effects might be ameliorated either by increasing the concentration of the dopant to shorten the pathlength for the ultraviolet light to the primary dopant.
+Because of this, dose rate effects might be ameliorated either by increasing the concentration of the dopant to shorten the path length for the ultraviolet light to the primary dopant.
 
 
 In this paper, we present measurements of the light output 
@@ -142,7 +158,7 @@ was 0.5, 1.0, and 2.0 times the nominal concentration.
 Fig.~\ref{fig:fg} [left] shows a photograph of some of the rods.
 
 High dose rate irradiations \textcolor{red}{( xxx--xxx~krad/hr)}
-were performed at the National Institute of Standards and Technology, Gaithersburg, MD, using their Colbalt-60 (Co-60) source.  Intermediate dose rate irradiations (\textcolor{red}{xxx--xxx~krad/hr}) were performed at Goddard Space Flight Center's Co-60 source.  Very low dose rate were measured using the GIF++ facility\cite{gif} at CERN.  The source is \textcolor{red}{Cs-137?} and the dose rate \textcolor{red}{xxx~krad/hr}.
+were performed at the National Institute of Standards and Technology, Gaithersburg, MD, using their Cobalt-60 (Co-60) source.  Intermediate dose rate irradiations (\textcolor{red}{xxx--xxx~krad/hr}) were performed at Goddard Space Flight Center's Co-60 source.  Very low dose rate were measured using the GIF++ facility\cite{gif} at CERN.  The source is \textcolor{red}{Cs-137?} and the dose rate \textcolor{red}{xxx~krad/hr}.
 
 \section{Measurement technique}
 The light output from the rods is measured before and after

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 NOV 2018 11:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 NOV 2018 12:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -318,42 +318,212 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Reference `fig:fg' on page 2 undefined on input line 142.
+Package natbib Warning: Citation `cloughPS' on page 2 undefined on input line 1
+14.
 
-[2]
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.117 z_0^2=\frac{4 $mm^2 krad/hr$}{\doserate}
+                                              
+? q
+OK, entering \batchmode...
+! Missing } inserted.
+<inserted text> 
+                }
+l.117 z_0^2=\frac{4 $mm^2 krad/hr$}{\doserate}
+                                              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-Package natbib Warning: Citation `gif' on page 3 undefined on input line 145.
+! Display math should end with $$.
+<to be read again> 
+                   m
+l.117 z_0^2=\frac{4 $mm^2 krad/hr$}{\doserate}
+                                              
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.117 z_0^2=\frac{4 $mm^2 krad/hr$}{\doserate}
+                                              
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.117 z_0^2=\frac{4 $mm^2 krad/hr$}{\doserate}
+                                              
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+<argument> \doserate 
+                     
+l.117 z_0^2=\frac{4 $mm^2 krad/hr$}{\doserate}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten $.
+\frac #1#2->{\begingroup #1\endgroup \over #2}
+                                              
+l.117 z_0^2=\frac{4 $mm^2 krad/hr$}{\doserate}
+                                              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! You can't use `\eqno' in math mode.
+\LN@endequation ->\eqno 
+                        \hbox {\@eqnnum }$$\@ignoretrue 
+l.119 \end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Overfull \hbox (1.38036pt too wide) in paragraph at lines 144--146
+! LaTeX Error: \begin{linenomath} on input line 115 ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 \end{equation}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.119 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{linenomath}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 \end{linenomath}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.120 \end{linenomath}
+                      
+Things are pretty mixed up, but I think the worst is over.
+
+
+Package natbib Warning: Citation `cloughPS' on page 2 undefined on input line 1
+23.
+
+! Undefined control sequence.
+l.124 For a tile with a thickness of 4\mm
+                                         , oxygen permeates the entire sampl...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.125 a \doserate
+                  of 1\unit{krad/hr}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.125 a \doserate of 1\unit
+                           {krad/hr}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.126 For {\doserate
+                    }s above this value, the damage to the scintillator
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.127 will depend on the \doserate
+                                  , as peroxides will form in the regions
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+ [2]
+
+LaTeX Warning: Reference `fig:fg' on page 3 undefined on input line 158.
+
+
+Package natbib Warning: Citation `gif' on page 3 undefined on input line 161.
+
+
+Overfull \hbox (1.38036pt too wide) in paragraph at lines 160--162
 \OT1/cmr/m/n/10 Cobalt-60 (Co-60) source. In-ter-me-di-ate dose rate ir-ra-di-a
 -tions ([]xxx--xxx krad/hr[])
  []
 
-<Setup_AlphaSource.pdf, id=91, 316.18124pt x 419.5675pt>
+ [3]
+<Setup_AlphaSource.pdf, id=99, 316.18124pt x 419.5675pt>
 File: Setup_AlphaSource.pdf Graphic file (type pdf)
-
-<use Setup_AlphaSource.pdf>
-Package pdftex.def Info: Setup_AlphaSource.pdf used on input line 163.
+ <use Setup_AlphaSource.pdf>
+Package pdftex.def Info: Setup_AlphaSource.pdf used on input line 179.
 (pdftex.def)             Requested size: 86.25pt x 114.4499pt.
 File: Setup_AlphaSource.pdf Graphic file (type pdf)
  <use Setup_AlphaSource.pdf>
-Package pdftex.def Info: Setup_AlphaSource.pdf used on input line 164.
+Package pdftex.def Info: Setup_AlphaSource.pdf used on input line 180.
 (pdftex.def)             Requested size: 86.25pt x 114.4499pt.
- [3]
-<AlphaSourceMeasurement-EJ200OLD_nominal.pdf, id=100, 569.12625pt x 408.52625pt
+
+<AlphaSourceMeasurement-EJ200OLD_nominal.pdf, id=101, 569.12625pt x 408.52625pt
 >
 File: AlphaSourceMeasurement-EJ200OLD_nominal.pdf Graphic file (type pdf)
  <use AlphaSourceMeasurement-EJ200OLD_nominal.pdf>
 Package pdftex.def Info: AlphaSourceMeasurement-EJ200OLD_nominal.pdf used on in
-put line 187.
+put line 203.
 (pdftex.def)             Requested size: 155.24895pt x 111.43806pt.
 
-<DoseConstVsDoseRate.pdf, id=101, 569.12625pt x 408.52625pt>
+<DoseConstVsDoseRate.pdf, id=102, 569.12625pt x 408.52625pt>
 File: DoseConstVsDoseRate.pdf Graphic file (type pdf)
-
-<use DoseConstVsDoseRate.pdf>
-Package pdftex.def Info: DoseConstVsDoseRate.pdf used on input line 188.
+ <use DoseConstVsDoseRate.pdf>
+Package pdftex.def Info: DoseConstVsDoseRate.pdf used on input line 204.
 (pdftex.def)             Requested size: 155.24895pt x 111.43806pt.
  [4 <./Setup_AlphaSource.pdf> <./AlphaSourceMeasurement-EJ200OLD_nominal.pdf, p
 age is rotated 90 degrees> <./DoseConstVsDoseRate.pdf, page is rotated 90 degre
@@ -384,7 +554,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--70
 science / article / pii /
  []
 
-[6]
+ [6]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
@@ -392,28 +562,27 @@ Missing character: There is no “ in font cmr10!
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
-[7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
  (./atiledopings.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 Package rerunfilecheck Info: File `atiledopings.out' has not changed.
 (rerunfilecheck)             Checksum: 7DC937C1FB139E48BB48CBB6571B3AE2;306.
 
-
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 213.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
  ) 
 Here is how much of TeX's memory you used:
- 5994 strings out of 493014
- 87582 string characters out of 6133351
- 177270 words of memory out of 5000000
- 9446 multiletter control sequences out of 15000+600000
+ 5998 strings out of 493014
+ 87620 string characters out of 6133351
+ 177308 words of memory out of 5000000
+ 9449 multiletter control sequences out of 15000+600000
  8442 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,7n,30p,461b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,7n,30p,461b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -429,10 +598,10 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on atiledopings.pdf (7 pages, 894087 bytes).
+Output written on atiledopings.pdf (7 pages, 895877 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 250 compressed objects within 3 object streams
- 37 named destinations out of 1000 (max. 500000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
+ 38 named destinations out of 1000 (max. 500000)
  64 words of extra memory for PDF output out of 10000 (max. 10000000)
 
