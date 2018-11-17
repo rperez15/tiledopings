@@ -1,5 +1,5 @@
-# put the following line in $HOME/.rootrc to use "UMD" plotting style
-Rint.Logon: $(HOME)/UMDStyle.C
+# put the following line in $HOME/.rootrc to use "UMD" plotting style; {WORKDIR} is the path to UMDStyle.C and UMDStyle.h files.
+Rint.Logon: ${WORKDIR}/UMDStyle.C
 
 # run the script:
 root -l -b DversusdoserateNew_InclNISTRound4andGSFC_PVTPS.C
