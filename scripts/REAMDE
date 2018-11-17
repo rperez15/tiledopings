@@ -1,0 +1,5 @@
+# put the following line in $HOME/.rootrc to use "UMD" plotting style
+Rint.Logon: $(HOME)/UMDStyle.C
+
+# run the script:
+root -l -b DversusdoserateNew_InclNISTRound4andGSFC_PVTPS.C
