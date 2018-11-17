@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: atiledopings.aux
+The style file: elsarticle-num.bst
+Database file #1: atiledopings.bib
+Warning--I didn't find a database entry for "gif"
+Warning--empty title in forster
+You've used 18 entries,
+            2937 wiz_defined-function locations,
+            809 strings with 8641 characters,
+and the built_in function-call counts, 5588 in all, are:
+= -- 547
+> -- 161
+< -- 3
++ -- 65
+- -- 47
+* -- 459
+:= -- 781
+add.period$ -- 32
+call.type$ -- 18
+change.case$ -- 18
+chr.to.int$ -- 3
+cite$ -- 19
+duplicate$ -- 159
+empty$ -- 612
+format.name$ -- 59
+if$ -- 1440
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 19
+newline$ -- 78
+num.names$ -- 20
+pop$ -- 85
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 351
+stack$ -- 0
+substring$ -- 291
+swap$ -- 58
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 38
+width$ -- 20
+write$ -- 183
+(There were 2 warnings)

@@ -123,8 +123,8 @@ where $\dot{d}$ is the dose rate.
 There is an abrupt transition between areas with and without oxygen.  The
 oxygen  concentration
 in the oxidized regions is almost uniform~\cite{cloughPS}.
-For a tile with a thickness of 4 mm, oxygen permeates the entire sample at
-a dose rate of 1 krad/hr
+For a tile with a thickness of 4\mm, oxygen permeates the entire sample at
+a dose rate of 1\unit{krad/hr}
 For dose rates above this value, the damage to the scintillator
 will depend on the dose rate, as peroxides will form in the regions
 with oxygen, but will not in the regions without.
