@@ -255,47 +255,43 @@ output, and $D$ is the exponential dose constant from the fit.
     Sample ID & Dose rate [krad/hr] & \multicolumn{4}{c}{Dose constant [Mrad]} \\
     \hline
 %GSFC G2 (23 \deC)
-    EJ-200-PS-1X2P   & \multirow{2}{*}{0.3} & & 5.75 & $\pm$ & 1.36 \\
-    EJ-200-PVT-1X2P & & & 5.02 & $\pm$ & 1.08 \\
-    EJ-260-PS-1X2P    & & & 5.10 & $\pm$ & 1.18 \\
-    EJ-260-PVT-1X2P  & & & 5.03 & $\pm$ & 1.18 \\
+    EJ-200-PS-1X2P-11   & \multirow{2}{*}{0.3} & & 5.75 & $\pm$ & 1.36 \\
+    EJ-200-PVT-1X2P-N11 & & & 5.02 & $\pm$ & 1.08 \\
+    EJ-260-PS-1X2P-8    & & & 5.10 & $\pm$ & 1.18 \\
+    EJ-260-PVT-1X2P-N3  & & & 5.03 & $\pm$ & 1.18 \\
     \hline
 %NIST R4S3
-    EJ-200-PS-1X1P   & \multirow{4}{*}{8.53} & & 12.26 & $\pm$ & 0.26 \\
-    EJ-200-PS-1X2P   & & & 12.62 & $\pm$ & 0.28 \\
-    EJ-200-PVT-1X1P & & & 12.46 & $\pm$ & 0.28 \\
-    EJ-200-PVT-1X2P & & & 12.99 & $\pm$ & 0.30 \\
+    EJ-200-PS-1X1P-5   & \multirow{4}{*}{8.53} & & 12.26 & $\pm$ & 0.26 \\
+    EJ-200-PS-1X2P-5   & & & 12.62 & $\pm$ & 0.28 \\
+    EJ-200-PVT-1X1P-N5 & & & 12.46 & $\pm$ & 0.28 \\
+    EJ-200-PVT-1X2P-N5 & & & 12.99 & $\pm$ & 0.30 \\
     \hline
 %NIST R4S6
-    EJ-200-PS-2X1P   & \multirow{4}{*}{8.34} & & 12.14 & $\pm$ & 0.23 \\
-    EJ-200-PVT-2X1P & & & 13.54 & $\pm$ & 0.30 \\
-    EJ-260-PS-1X1P   & & & 14.80 & $\pm$ & 0.41 \\
-    EJ-260-PVT-1X2P & & & 12.53 & $\pm$ & 0.30 \\
+    EJ-200-PS-2X1P-5   & \multirow{4}{*}{8.34} & & 12.14 & $\pm$ & 0.23 \\
+    EJ-200-PVT-2X1P-N5 & & & 13.54 & $\pm$ & 0.30 \\
+    EJ-260-PS-1X1P-4   & & & 14.80 & $\pm$ & 0.41 \\
+    EJ-260-PVT-1X2P-N4 & & & 12.53 & $\pm$ & 0.30 \\
     \hline
 %NIST R4S5
-    EJ-200-PS-1X1P   & \multirow{4}{*}{74.4} & & 10.63 & $\pm$ & 0.11 \\
-    EJ-200-PS-1X2P   & & & 12.17 & $\pm$ & 0.15 \\
-    EJ-200-PVT-1X1P & & & 13.64 & $\pm$ & 0.25 \\
-    EJ-200-PVT-1X2P & & & 13.97 & $\pm$ & 0.26 \\
+    EJ-200-PS-1X1P-8   & \multirow{4}{*}{74.4} & & 10.63 & $\pm$ & 0.11 \\
+    EJ-200-PS-1X2P-8   & & & 12.17 & $\pm$ & 0.15 \\
+    EJ-200-PVT-1X1P-N4 & & & 13.64 & $\pm$ & 0.25 \\
+    EJ-200-PVT-1X2P-N4 & & & 13.97 & $\pm$ & 0.26 \\
     \hline
 %NIST R4S1
-    EJ-200-PS-1X1P   & \multirow{4}{*}{390.0} & & 9.96 & $\pm$ & 0.21 \\
-    EJ-200-PS-1X2P   & & & 11.90 & $\pm$ & 0.32 \\
-    EJ-200-PVT-1X1P & & & 16.06 & $\pm$ & 0.57 \\
-    EJ-200-PVT-1X2P & & & 17.62 & $\pm$ & 0.69 \\
+    EJ-200-PS-1X1P-9   & \multirow{4}{*}{390.0} & & 9.96 & $\pm$ & 0.21 \\
+    EJ-200-PS-1X2P-9   & & & 11.90 & $\pm$ & 0.32 \\
+    EJ-200-PVT-1X1P-N9 & & & 16.06 & $\pm$ & 0.57 \\
+    EJ-200-PVT-1X2P-N9 & & & 17.62 & $\pm$ & 0.69 \\
     \hline
 %NIST R4S2
-    EJ-200-PVT-2X1P & \multirow{3}{*}{390.0} & & 16.92 & $\pm$ & 0.56 \\
-    EJ-260-PS-1X1P   & & & 11.94 & $\pm$ & 0.31 \\
-    EJ-260-PVT-1X2P & & & 13.92 & $\pm$ & 0.43 \\
+    EJ-200-PS-2X1P-9$^*$   & \multirow{4}{*}{390.0} & & 9.41 & $\pm$ & 0.17 \\
+    EJ-200-PVT-2X1P-N9 & & & 16.92 & $\pm$ & 0.56 \\
+    EJ-260-PS-1X1P-9   & & & 11.94 & $\pm$ & 0.31 \\
+    EJ-260-PVT-1X2P-N9 & & & 13.92 & $\pm$ & 0.43 \\
     \hline
   \end{tabular}
-  \caption{(*) Sample type, dose rate, and dose constant.  
-In the naming convention EJ-XXX-YY-NXMP, XXX refers to blue (200) or green (260) scintilator, YY refers to the substrate (PS or PVT), NX refers to the 
-concentration of the
-secondary relative to the nominal,
-and YP refers to the concenation of the primary dopant relative to the nominal.
-}
+  \caption{(*) Bad sample: measurements of different faces show large deviation.}
   \label{tab:results}
 \end{table}
 
