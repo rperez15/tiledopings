@@ -386,7 +386,14 @@ void DversusdoserateNew_InclNISTRound4andGSFC_PVTPS() {
     // End of Goddard (GSFC) samples
     // ********************************************************
 
+    // GIF++ sample
 
+    // Begin of EJ200PVT_1X1P_N8
+    const Int_t n15 = 1;
+    Float_t x15[n15] = {0.22};
+    Float_t y15[n15] = {3.78534};
+    Float_t ex15[n15] = {0.005};
+    Float_t ey15[n15] = {0.32446};
 
     // ********************************************************
     // All the graphs
@@ -616,6 +623,15 @@ void DversusdoserateNew_InclNISTRound4andGSFC_PVTPS() {
     gr14c->SetMarkerSize(1.5);
     gr14c->SetMarkerStyle(33);
 
+    // GIF++
+    TGraph *gr15 = new TGraphErrors(n15,x15,y15,ex15,ey15);
+    gr15->SetMarkerColor(7);
+    gr15->SetLineColor(7);
+    //gr15->SetLineStyle(2);
+    gr15->SetLineWidth(2);
+    gr15->SetMarkerSize(1.5);
+    gr15->SetMarkerStyle(33);
+
 
     // ======================================================================================================
     // End of results section
@@ -674,7 +690,7 @@ void DversusdoserateNew_InclNISTRound4andGSFC_PVTPS() {
     //mgall->Add(gr14);//EJ260PS 1X2P G2
     //mgall->Add(gr14c);//EJ260PS 1X2P G1
     //mgall->Add(gr14cw);//EJ260PS 1X2P G1 warmed up
-
+    mgall->Add(gr15);
 
     // Others
     //mgall->Add(gr);
@@ -685,9 +701,9 @@ void DversusdoserateNew_InclNISTRound4andGSFC_PVTPS() {
     mgall->GetYaxis()->SetTitle("Dose Constant (Mrad)");
 //     mgall->SetMinimum(0.01);
 //     mgall->SetMaximum(300);
-    mgall->SetMinimum(1.0);
+    mgall->SetMinimum(0.1);
     mgall->SetMaximum(50.0);
-    double xmin = 1.e-2;//1.e-4;
+    double xmin = 1.e-3;//1.e-4;
     double xmax = 2.e3;//2.e3;
     mgall->GetXaxis()->SetLimits(xmin,xmax);
 
@@ -766,8 +782,8 @@ void DversusdoserateNew_InclNISTRound4andGSFC_PVTPS() {
 
     //mgUMDPS->Draw("ap");
 
-    double fitxmin1 = TMath::MinElement(gr11->GetN(),gr11->GetX());
-    double fitxmax1 = TMath::MaxElement(gr8h->GetN(),gr8h->GetX());
+    fitxmin1 = TMath::MinElement(gr11->GetN(),gr11->GetX());
+    fitxmax1 = TMath::MaxElement(gr8h->GetN(),gr8h->GetX());
 
     TF1 *fpowUMDPS = new TF1("fpowUMDPS","sqrt(x)/([0]+[1]*sqrt(x))",fitxmin1,fitxmax1);
     fpowUMDPS->SetParameters(0.08,0.05);
@@ -871,11 +887,9 @@ void DversusdoserateNew_InclNISTRound4andGSFC_PVTPS() {
 
     TString filename = TString("doserate_");
     filename+=tagTime;
-    filename+="_OffsetSubtracted_InclNISTRound4andGSFC_PVTPS_p20181116";
+    filename+="_OffsetSubtracted_InclNISTRound4andGSFC_PVTPS_p20181121";
 
     c1->SaveAs(filename+".png");
     c1->SaveAs(filename+".pdf");
     c1->SaveAs(filename+".root");
-
-    exit();
 }
